@@ -13,7 +13,7 @@ Buat bot LoFi mu sendiri✨
 
 | Paket | Versi |
 | - | - |
-| discord.js | 13.3.1 |
+| 🥥゛[discord.js](https://www.npmjs.com/package/discord.js) `npm i discord.js@13.3.1` | [13.3.1](https://www.npmjs.com/package/discord.js/v/13.3.1) |
 | @discordjs/voice | |
 | ffmpeg-static | |
 | opusscript | |
@@ -22,7 +22,7 @@ Buat bot LoFi mu sendiri✨
 
 ## Mulai Coding
 
-### Mengatur constructor
+### Atur constructor
 ```js
 const { Client } = require("discord.js");
 const { DisTube } = require("distube");

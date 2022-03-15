@@ -4,6 +4,8 @@ Buat bot LoFi mu sendiri✨
 ![Lofi](./assets/lofi_white.png#gh-light-mode-only)
 
 ## Instal Paket
+- [x] Software untuk kode ini adalah [`Repl.it`](https://replit.com)
+ - Pastikan instal node versi 16 ke atas
 
 | Paket | Versi |
 | - | - |

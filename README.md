@@ -11,6 +11,15 @@ Buat bot LoFi mu sendiri✨
 * [ ] distube
 * [ ] @distube/yt-dpl
 
+| Paket | Versi |
+| - | - |
+| discord.js | 13.3.1 |
+| @discordjs/voice | |
+| ffmpeg-static | |
+| opusscript | |
+| distube | |
+| @distube/yt-dpl | |
+
 ## Mulai Coding
 
 ### Mengatur constructor

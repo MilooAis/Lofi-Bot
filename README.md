@@ -22,7 +22,7 @@ Buat bot LoFi mu sendiri✨
 ```js
 const { Client } = require("discord.js");
 const { DisTube } = require("distube");
-const { YtDplPlugins } = require("@distube/yt-dpl");
+const { YtDlpPlugins } = require("@distube/yt-dpl");
 ```
 ### Membuat Client
 ```js

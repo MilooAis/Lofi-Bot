@@ -29,8 +29,7 @@ Token bot hanya bisa dilihat satu kali, jika kamu lupa, kamu harus regenerasi to
 ![Token](./assets/token_light.png#gh-light-mode-only)
 
 ## 📦゛Instal Paket
-- [ ] Online IDE yang kami gunakan untuk kode ini adalah [`🍫゛Repl.it`](https://replit.com)
- - Pastikan instal node versi 16 ke atas
+Kamu butuh [`NodeJS`](https://nodejs.org) versi 16 atau 16 keatas
 
 | Paket | Versi |
 | - | - |
@@ -42,6 +41,8 @@ Token bot hanya bisa dilihat satu kali, jika kamu lupa, kamu harus regenerasi to
 | 🌴゛[@distube/yt-dlp](https://www.npmjs.com/package/@distube/yt-dlp) `npm i @distube/yt-dlp@1.0.2` | [1.0.2](https://npmjs.com/package/@distube/yt-dlp/v/1.0.2) |
 
 ## ✨゛Mulai Coding
+
+- Online IDE yang kami gunakan untuk kode ini adalah [`🍫゛Repl.it`](https://replit.com)
 
 ### 🍃゛Atur constructor
 Impor [`🥥゛Client`](https://github.com/discordjs/discord.js/blob/main/packages/discord.js/src/client/Client.js), [`🌙゛Distube`](https://github.com/skick1234/DisTube/blob/main/src/DisTube.ts), dan [`🌴゛YtDlpPlugins`](https://github.com/distubejs/yt-dlp/blob/main/src/index.ts) dari package

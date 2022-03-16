@@ -106,3 +106,9 @@ client.login(token);
 
 require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 ```
+## 💫゛Kontributor
+@nbylaa
+- Developer, Image Editor
+
+@izryu
+- Developer

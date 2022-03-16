@@ -27,12 +27,24 @@ const { YtDlpPlugins } = require("@distube/yt-dpl");
 ### Membuat Client
 ```js
 const client = new Client({ intents: ["GUILDS", "GUILD_VOICE_STATES"] });
-client.player = new DisTube( client, { leaveOnEmpty: false, leaveOnStop: false, youtubeDL: false, plugins: [new YtDlpPlugin()] });
+client.player = new DisTube(client, { leaveOnEmpty: false, leaveOnStop: false, youtubeDL: false, plugins: [new YtDlpPlugin()] });
 ```
 ### Hubungkan bot
 ```js
 client.on("ready", async client => {
   await console.log(`Masuk sebagai ${client.user.tag}`);
   await client.player.play("ID Channel", "URL Video");
-})
+});
+```
+Masukan token bot di environment mu!
+```js
+const { token } = process.env;
+```
+```js
+client.login(token);
+```
+
+### Buat webhost untuk replit mu
+```js
+require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 ```

@@ -116,5 +116,5 @@ require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 ## 🌸゛Gabung Server Komunitas Kami
 Ayo gabung ke server komunitas kami, kamu bisa bertanya atau memberi saran, dan masukan pada kami
 
-[![Invite](./assets/invite_dark.png#gh-dark-mode-only)](https://discord.gg/YZFf62PVWQ)
-[![Invite](./assets/invite_light.png#gh-light-mode-only)](https://discord.gg/YZFf62PVWQ)
+[![Invite](./assets/invite_dark.png)](https://discord.gg/YZFf62PVWQ#gh-dark-mode-only)
+[![Invite](./assets/invite_light.png)](https://discord.gg/YZFf62PVWQ#gh-light-mode-only)

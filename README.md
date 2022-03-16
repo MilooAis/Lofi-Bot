@@ -113,3 +113,8 @@ require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 ### 🍫゛Editor Gambar
 - [ ] [`@izryu`](https://github.com/izryu)
 - [x] [`@nbylaa`](https://github.com/nbylaa)
+## 🌸゛Gabung Server Komunitas Kami
+Ayo gabung ke server komunitas kami, kamu bisa bertanya atau memberi saran, dan masukan pada kami
+
+![Invite](./assets/invite_dark.png#gh-dark-mode-only)
+![Invite](./assets/invite_light.png#gh-light-mode-only)

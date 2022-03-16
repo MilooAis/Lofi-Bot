@@ -3,6 +3,13 @@ Buat bot LoFi mu sendiri✨
 ![Lofi](./assets/lofi_black.png#gh-dark-mode-only)
 ![Lofi](./assets/lofi_white.png#gh-light-mode-only)
 
+## 🍉゛Setup Bot
+### 🥥゛Buat Aplikasi
+
+Buat aplikasi di [`Portal pengembang Discord`](https://discord.com/developers/applications)
+
+![Application](./assets/aplikasi_dark.png#gh-dark-mode-only)
+![Application](./assets/aplikasi_light.png#gh-light-mode-only)
 ## 📦゛Instal Paket
 - [ ] Online IDE yang kami gunakan untuk kode ini adalah [`🍫゛Repl.it`](https://replit.com)
  - Pastikan instal node versi 16 ke atas

@@ -86,6 +86,7 @@ Salin kode dibawah, dan tempel url mu di [`Uptimerobot`](https://uptimerobot.com
 require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 ```
 ## 🏓゛Kode Hasil
+Ini adalah kode ringkas untuk kalian, jika kalian ingin copy paste😁
 ```js
 //Masukan dalam file index.js
 const client = new Client({ intents: ["GUILDS", "GUILD_VOICE_STATES"] });

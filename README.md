@@ -23,6 +23,7 @@ Deskripsi aplikasi akan diletakkan di deskripsi akun (About Me) bot Discord mu
 
 Token digunakan untuk masuk ke akun discord bot mu
 - 📣゛Discord telah memperbarui keamanan token
+
 Token bot hanya bisa dilihat satu kali, jika kamu lupa, kamu harus regenerasi token yang baru
 
 ![Token](./assets/token_dark.png#gh-dark-mode-only)

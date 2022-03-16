@@ -85,3 +85,19 @@ Salin kode dibawah, dan tempel url mu di [`Uptimerobot`](https://uptimerobot.com
 ```js
 require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 ```
+## 🏓゛Kode Hasil
+```js
+//Masukan dalam file index.js
+const client = new Client({ intents: ["GUILDS", "GUILD_VOICE_STATES"] });
+client.player = new DisTube(client, { leaveOnEmpty: false, leaveOnStop: false, youtubeDL: false, plugins: [new YtDlpPlugin()] });
+
+client.on("ready", async client => {
+  await console.log(`Masuk sebagai ${client.user.tag}`);
+  await client.player.play("ID Channel", "URL Video");
+});
+
+const { token } = process.env;
+client.login(token);
+
+require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
+```

@@ -19,7 +19,7 @@ Buat bot LoFi mu sendiri✨
 ## ✨゛Mulai Coding
 
 ### 🍃゛Atur constructor
-Impor [`Client`](https://www.npmjs.com/package/discord.js/v/13.3.1), [`Distube`](https://www.npmjs.com/package/distube/v/3.3.2), dan [`YtDlpPlugins`](https://github.com/distubejs/yt-dlp/blob/main/src/index.ts) dari package
+Impor [`Client`](https://github.com/discordjs/discord.js/blob/main/packages/discord.js/src/client/Client.js), [`Distube`](https://www.npmjs.com/package/distube/v/3.3.2), dan [`YtDlpPlugins`](https://github.com/distubejs/yt-dlp/blob/main/src/index.ts) dari package
 ```js
 const { Client } = require("discord.js");
 const { DisTube } = require("distube");

@@ -89,6 +89,10 @@ require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 Ini adalah kode ringkas untuk kalian, jika kalian ingin copy paste😁
 ```js
 //Masukan dalam file index.js
+const { Client } = require("discord.js");
+const { DisTube } = require("distube");
+const { YtDlpPlugins } = require("@distube/yt-dlp");
+
 const client = new Client({ intents: ["GUILDS", "GUILD_VOICE_STATES"] });
 client.player = new DisTube(client, { leaveOnEmpty: false, leaveOnStop: false, youtubeDL: false, plugins: [new YtDlpPlugin()] });
 

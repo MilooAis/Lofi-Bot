@@ -3,7 +3,7 @@ Buat bot LoFi mu sendiri✨
 ![Lofi](./assets/lofi_black.png#gh-dark-mode-only)
 ![Lofi](./assets/lofi_white.png#gh-light-mode-only)
 
-## Instal Paket
+## 📦゛Instal Paket
 - [ ] Software untuk kode ini adalah [`Repl.it`](https://replit.com)
  - Pastikan instal node versi 16 ke atas
 
@@ -16,20 +16,20 @@ Buat bot LoFi mu sendiri✨
 | 🌙゛[distube](https://www.npmjs.com/package/distube) `npm i distube@3.3.2` | [3.3.2](https://www.npmjs.com/package/distube/v/3.3.2) |
 | 🌴゛[@distube/yt-dlp](https://www.npmjs.com/package/@distube/yt-dlp) `npm i @distube/yt-dlp@1.0.2` | [1.0.2](https://npmjs.com/package/@distube/yt-dlp/v/1.0.2) |
 
-## Mulai Coding
+## ✨゛Mulai Coding
 
-### Atur constructor
+### 🍃゛Atur constructor
 ```js
 const { Client } = require("discord.js");
 const { DisTube } = require("distube");
 const { YtDlpPlugins } = require("@distube/yt-dpl");
 ```
-### Membuat Client
+### 🌸゛Buat Client
 ```js
 const client = new Client({ intents: ["GUILDS", "GUILD_VOICE_STATES"] });
 client.player = new DisTube(client, { leaveOnEmpty: false, leaveOnStop: false, youtubeDL: false, plugins: [new YtDlpPlugin()] });
 ```
-### Hubungkan bot
+### 🌙゛Hubungkan bot
 ```js
 client.on("ready", async client => {
   await console.log(`Masuk sebagai ${client.user.tag}`);
@@ -44,7 +44,7 @@ const { token } = process.env;
 client.login(token);
 ```
 
-### Buat webhost untuk replit mu
+### ☁️゛Buat webhost untuk replit mu
 ```js
 require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 ```

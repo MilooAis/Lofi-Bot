@@ -29,3 +29,10 @@ const { YtDlpPlugins } = require("@distube/yt-dpl");
 const client = new Client({ intents: ["GUILDS", "GUILD_VOICE_STATES"] });
 client.player = new DisTube( client, { leaveOnEmpty: false, leaveOnStop: false, youtubeDL: false, plugins: [new YtDlpPlugin()] });
 ```
+### Hubungkan bot
+```js
+client.on("ready", async client => {
+  await console.log(`Masuk sebagai ${client.user.tag}`);
+  await client.player.play("ID Channel", "URL Video");
+})
+```

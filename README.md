@@ -77,7 +77,7 @@ client.login(token);
 ```
 Kamu juga bisa gunakan cara yang biasa digunakan developer
 ```js
-client.login(token)
+client.login(process.env.token)
 ```
 
 ### ☁️゛Buat webhost untuk replit mu

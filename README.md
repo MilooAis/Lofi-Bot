@@ -19,7 +19,7 @@ Deskripsi aplikasi akan diletakkan di deskripsi akun (About Me) bot Discord mu
 ![Setting](./assets/setting_light.png#gh-light-mode-only)
 
 ### ☁️゛Ubah Akun Bot
-🔒゛Ambil Token mu
+🔒゛Ambil Token mu dan masukan ke dalam environment
 
 Token digunakan untuk masuk ke akun discord bot mu
 - 📣゛Discord telah memperbarui keamanan token
@@ -63,21 +63,25 @@ const client = new Client({ intents: ["GUILDS", "GUILD_VOICE_STATES"] });
 client.player = new DisTube(client, { leaveOnEmpty: false, leaveOnStop: false, youtubeDL: false, plugins: [new YtDlpPlugin()] });
 ```
 ### 🌙゛Hubungkan bot
+Mulai putar lagu saat client sudah siap
 ```js
 client.on("ready", async client => {
   await console.log(`Masuk sebagai ${client.user.tag}`);
   await client.player.play("ID Channel", "URL Video");
 });
 ```
-Masukan token bot di environment mu!
+Impor `token` dari environment
 ```js
 const { token } = process.env;
-```
-```js
 client.login(token);
+```
+Kamu juga bisa gunakan cara yang biasa digunakan developer
+```js
+client.login(token)
 ```
 
 ### ☁️゛Buat webhost untuk replit mu
+Salin kode dibawah, dan tempel url mu di [`Uptimerobot`](https://uptimerobot.com)
 ```js
 require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 ```

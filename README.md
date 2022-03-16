@@ -56,7 +56,9 @@ const { YtDlpPlugins } = require("@distube/yt-dlp");
 [`🥥゛Client`](https://github.com/discordjs/discord.js/blob/main/packages/discord.js/src/client/Client.js)
 - Client digunakan untuk mengakses bot, intents dibutuhkan untuk construction client, pastikan kamu memasukan inten "GUILDS" untuk mengakses guild, dan "GUILD_VOICE_STATES" untuk mengakses voice state yang ada dalam guild
 
+[`🌙゛Distube`](https://github.com/skick1234/DisTube/blob/main/src/DisTube.ts)
 ```js
+- DisTube digunakan untuk memutar musik, karena opsi `youtubeDL` sudah di TIDAK DIGUNAKAN LAGI, ubah `youtubeDL: false`, dan tambahkan `plugins: [new YtDlpPlugin()]` di opsi distube
 const client = new Client({ intents: ["GUILDS", "GUILD_VOICE_STATES"] });
 client.player = new DisTube(client, { leaveOnEmpty: false, leaveOnStop: false, youtubeDL: false, plugins: [new YtDlpPlugin()] });
 ```

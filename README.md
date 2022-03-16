@@ -85,7 +85,7 @@ Salin kode dibawah, dan tempel url mu di [`Uptimerobot`](https://uptimerobot.com
 ```js
 require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 ```
-## 🏓゛Kode Hasil
+## 🏓゛Kode Ringkas
 Ini adalah kode ringkas untuk kalian, jika kalian ingin copy paste😁
 ```js
 //Masukan dalam file index.js

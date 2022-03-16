@@ -6,10 +6,28 @@ Buat bot LoFi mu sendiri✨
 ## 🍉゛Setup Bot
 ### 🥥゛Buat Aplikasi
 
-Buat aplikasi di [`Portal pengembang Discord`](https://discord.com/developers/applications)
+🌿゛Buat aplikasi di [`Portal pengembang Discord`](https://discord.com/developers/applications)
 
 ![Application](./assets/aplikasi_dark.png#gh-dark-mode-only)
 ![Application](./assets/aplikasi_light.png#gh-light-mode-only)
+
+🗞️゛Atur icon dan deskripsi
+
+Deskripsi aplikasi akan diletakkan di deskripsi akun (About Me) bot Discord mu
+
+![Setting](./assets/setting_dark.png#gh-dark-mode-only)
+![Setting](./assets/setting_light.png#gh-light-mode-only)
+
+### ☁️゛Ubah Akun Bot
+🔒゛Ambil Token mu
+
+Token digunakan untuk masuk ke akun discord bot mu
+- 📣゛Discord telah memperbarui keamanan token
+Token bot hanya bisa dilihat satu kali, jika kamu lupa, kamu harus regenerasi token yang baru
+
+![Token](./assets/token_dark.png#gh-dark-mode-only)
+![Token](./assets/token_light.png#gh-light-mode-only)
+
 ## 📦゛Instal Paket
 - [ ] Online IDE yang kami gunakan untuk kode ini adalah [`🍫゛Repl.it`](https://replit.com)
  - Pastikan instal node versi 16 ke atas

@@ -82,7 +82,7 @@ client.login(process.env.token)
 ```
 
 ### ☁️゛Buat webhost untuk replit mu
-Salin kode dibawah, dan tempel url mu di [`Uptimerobot`](https://uptimerobot.com)
+Salin kode dibawah, dan tempel url mu di [`StatusCake`](https://statuscake.com)
 ```js
 require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 ```
